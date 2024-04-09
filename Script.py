@@ -1,23 +1,23 @@
 class script(object):  
-    START_TXT = """<b>✨ Hᴇʟʟᴏ {user}.
+    START_TXT = """<b>👆 Just click on the above "file". And click on "Play" to watch.
 
-Mʏ Nᴀᴍᴇ Is {bot}.
+My name is {bot}.
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+I can provide you movies! Just go to the group @NotifyCinema</b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
-    ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
-✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
-✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: ᴩʀᴏꜰᴇꜱꜱᴏʀ-ʙᴏᴛ ᴠ4.5.0</b>"""
+    ABOUT_TXT = """<b>
+✯ Developer: <a herf=https://t.me/NotifyCinemaAdmin>Notify Cinema</a>
+✯ Coded on: Python/Pyrogram
+✯ My Database: MongoDB
+✯ My Server: Anywhere
+✯ My Version: Notify Cinema Bot v4.5.0</b>"""
    
     SOURCE_TXT = """<b>NOTE:</b>
 - ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/MrMKN/PROFESSOR-BOT>𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑-𝐁𝐎𝐓</a>
 
-<b>ᴅᴇᴠ: <a herf=https://t.me/Mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a></b>"""
+<b>ᴅᴇᴠ: <a herf=https://t.me/NotifyCinemaAdmin>Notify Cinema</a></b>"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
@@ -28,7 +28,7 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
 ➪ /batch › Tᴏ Cʀᴇᴀᴛᴇ Lɪɴᴋ Fᴏʀ Mᴜʟᴛɪᴘʟᴇ Mᴇᴅɪᴀ
 
 <b>⪼ EG:</b>
-</code>/batch https://t.me/mkn_bots_updates/1 https://t.me/mkn_bots_updates/10</code>"""
+</code>/batch https://t.me/NotifyCinemaOfficial</code>"""
   
     FILTER_TXT = "Sᴇʟᴇᴄᴛ Wʜɪᴄʜ Oɴᴇ Yᴏᴜ Wᴀɴᴛ...✨"
     
@@ -214,11 +214,11 @@ Fʀᴇᴇ Dɪꜱᴋ: {}"""
    
     FORCE_SUB_TEXT = "Sᴏʀʀʏ Bʀᴏ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴇᴅ Mʏ Cʜᴀɴɴᴇʟ Sᴏ Pʟᴇᴀsᴇ Cʟɪᴄᴋ Jᴏɪɴ Bᴜᴛᴛᴏɴ Tᴏ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Aɴᴅ Tʀʏ Aɢᴀɪɴ"
    
-    WELCOM_TEXT = """Hᴇʏ {user} 💞
+    WELCOM_TEXT = """Hey {user}
 
-Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
+Welcome to {chat}.
 
-ꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ"""
+Ask anything movie/series here! 👇"""
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
