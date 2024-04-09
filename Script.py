@@ -218,7 +218,7 @@ Fʀᴇᴇ Dɪꜱᴋ: {}"""
 
 Welcome to {chat}.
 
-Ask anything movie/series here! 👇"""
+Ask any movie/series here! 👇"""
   
     IMDB_TEMPLATE = """<b>Qᴜᴇʀʏ: {query}</b>
 
