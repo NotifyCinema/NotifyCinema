@@ -26,13 +26,13 @@ async def disabled_chat(_, client, message: Message):
 @Client.on_message(filters.private & filters.incoming & filters.create(banned_users))
 async def ban_reply(bot, message):
     ban = await db.get_ban_status(message.from_user.id)
-    await message.reply(f"Sᴏʀʀʏ Dᴜᴅᴇ, Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Tᴏ Usᴇ Mᴇ. \nBᴀɴ Rᴇᴀsᴏɴ: {ban['ban_reason']}")
+    await message.reply(f"Sorry! You are banned to use me.\nBᴀɴ Rᴇᴀsᴏɴ: {ban['ban_reason']}")
 
 @Client.on_message(filters.group & filters.incoming & filters.create(disabled_chat))
 async def grp_bd(bot, message):
     buttons = [[InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url=f'https://t.me/{SUPPORT_CHAT}')]]
     chat = await db.get_chat(message.chat.id)
-    k = await message.reply(text=f"CHAT NOT ALLOWED 🐞\n\nMʏ Aᴅᴍɪɴs Hᴀs Rᴇsᴛʀɪᴄᴛᴇᴅ Mᴇ Fʀᴏᴍ Wᴏʀᴋɪɴɢ Hᴇʀᴇ ! Iғ Yᴏᴜ Wᴀɴᴛ Tᴏ Kɴᴏᴡ Mᴏʀᴇ Aʙᴏᴜᴛ Iᴛ Cᴏɴᴛᴀᴄᴛ Sᴜᴘᴘᴏʀᴛ..\nRᴇᴀꜱᴏɴ : <code>{chat['reason']}</code>.", reply_markup=InlineKeyboardMarkup(buttons))
+    k = await message.reply(text=f"CHAT NOT ALLOWED 🐞\n\nMy admins has restricted me to work here! Please contact support for more inquiries...\nRᴇᴀꜱᴏɴ : <code>{chat['reason']}</code>.", reply_markup=InlineKeyboardMarkup(buttons))
     try: await k.pin()
     except: pass
     await bot.leave_chat(message.chat.id)
